@@ -1,3 +1,5 @@
+http://supybook.fealdia.org/0.0.1/#_plugins --> buena documentacion online
+__________
 
 !network connect Freenode irc.freenode.net
 aleij: The operation succeeded.  Connection to Freenode initiated.
@@ -8,3 +10,33 @@ un comando para guardar los logs y las configuraciones que estan en uso:
 
 !flush
 aleij: The operation succeeded.
+
+
+[5:39pm] aleij:
+!later tell kalashnikov test de mensaje con el plugin Later de supybot
+[5:39pm] halFbro:
+aleij: The operation succeeded.
+
+
+[5:38pm] aleij:
+!load Later
+[5:38pm] halFbro:
+aleij: The operation succeeded.
+[5:43pm] aleij:
+!load ChannelLogger
+[5:43pm] halFbro:
+aleij: The operation succeeded.
+[5:44pm] aleij:
+!channellogger
+[5:44pm] halFbro:
+aleij: Error: "channellogger" is not a valid command.
+[5:44pm] aleij:
+!help channellogger
+[5:45pm] halFbro:
+aleij: Error: There is no command "channellogger".
+[5:46pm] aleij:
+!unload weather
+[5:46pm] halFbro:
+aleij: The operation succeeded.
+[5:47pm] aleij:
+!flush
