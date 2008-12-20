@@ -1,3 +1,12 @@
+1.cambio en local el docu
+2.git add .
+3.git commit -m "nombre del commit"
+4.git status
+5.git push origin master 
+
+
+notas previas:
+
 entonces debo hacer:
 
 git pull origin master
