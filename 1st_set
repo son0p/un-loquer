@@ -1,0 +1,17 @@
+halFbro joined the chat room.
+[11:35pm] aleij:
+!load google
+[11:35pm] halFbro:
+aleij: Error: No plugin named "google" exists.
+[11:36pm] aleij:
+!load Google
+[11:36pm] halFbro:
+aleij: Error: No module named simplejson
+[11:40pm] aleij:
+!load Google
+[11:40pm] halFbro:
+aleij: The operation succeeded.
+[11:40pm] aleij:
+!google like a bike
+[11:40pm] halFbro:
+aleij: LIKEaBIKE: Bikes: <http://likeabikeusa.com/>; C&O Canal Bicycle Tour | Trips | Bike and the Like: <http://www.bikeandthelike.com/cocanal.html>; General Trip Information | Bike and the Like Bicycle Tours U.S. ...: <http://www.bikeandthelike.com/info.html>; Kool Stop's Like-A-Bike: <http://www.koolstop.com/Like-A-Bike/index.html>; Bike helmets that look like hats - Boing Boing: (2 more messages)
