@@ -26,15 +26,18 @@ aleij: The operation succeeded.
 !load ChannelLogger
 [5:43pm] halFbro:
 aleij: The operation succeeded.
-[5:44pm] aleij:
-!channellogger
-[5:44pm] halFbro:
-aleij: Error: "channellogger" is not a valid command.
-[5:44pm] aleij:
-!help channellogger
-[5:45pm] halFbro:
-aleij: Error: There is no command "channellogger".
-[5:46pm] aleij:
+
+
+[5:53pm] aleij:
+!config list plugins.ChannelLogger
+[5:54pm] aleij:
+!list ChannelLogger
+[5:54pm] halFbro:
+aleij: #filenameTimestamp, #noLogPrefix, #rotateLogs, #stripFormatting, #timestamp, @directories, flushImmediately, and public
+[5:54pm] halFbro:
+aleij: That plugin exists, but has no commands.  This probably means that it has some configuration variables that can be changed in order to modify its behavior.  Try "config list supybot.plugins.ChannelLogger" to see what configuration variables it has.
+
+
 !unload weather
 [5:46pm] halFbro:
 aleij: The operation succeeded.
