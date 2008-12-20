@@ -13,3 +13,8 @@ sin que me salga el error:
 ESTE TEXTO ES PARA PROBARLO
 
 !!comprobado ahora lo intento en local y luego hago el push.
+
+al intentar el git push me dice que debo hacer git add . 
+lo hago e intento el push pero no sube nada
+git status me dice:
+
