@@ -1,9 +1,16 @@
 1.cambio en local el docu
 2.git add .
 3.git commit -m "nombre del commit"
-4.git status
+4.git status (me dira que no hay nada que hacer porque el commit sucede en local)
 5.git push origin master 
 
+con esos 5 pasos tendre todo en la web de github.
+
+si hago algun cambio en github via webinterface, debo hacer un:
+
+git pull origin master 
+
+para poner todo en sincro.
 
 notas previas:
 
