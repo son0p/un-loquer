@@ -1,7 +1,10 @@
 
-[4:44pm] aleij:
 !network connect Freenode irc.freenode.net
-[4:44pm] halFbro:
 aleij: The operation succeeded.  Connection to Freenode initiated.
-[4:44pm] aleij:
+
 !network command Freenode join #altred
+
+un comando para guardar los logs y las configuraciones que estan en uso:
+
+!flush
+aleij: The operation succeeded.
