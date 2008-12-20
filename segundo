@@ -1,1 +1,13 @@
-2
+entonces debo hacer:
+
+git pull origin master
+
+para hacer un update de las modificaciones hechas via la interface web de github, asi cuando intento hacer:
+
+git push origin master
+
+sin que me salga el error:
+
+ ! [rejected]        master -> master (non-fast forward)
+
+ESTE TEXTO ES PARA PROBARLO
