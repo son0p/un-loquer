@@ -87,3 +87,9 @@ aleij: falso
 
 weather info:
 !wunder medellin, colombia
+
+!do #tm09 <action>
+!say #tm09tech <text>
+
+not to forget:
+/msg halFbro identify aleij <password>
