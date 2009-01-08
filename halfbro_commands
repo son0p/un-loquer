@@ -1,0 +1,95 @@
+http://supybook.fealdia.org/0.0.1/#_plugins --> buena documentacion online
+http://supybot.svn.sourceforge.net/viewvc/supybot/trunk/supybot/plugins/ --> los plugins de svn
+__________
+
+!network connect Freenode irc.freenode.net
+aleij: The operation succeeded.  Connection to Freenode initiated.
+
+!network command Freenode join #altred
+
+un comando para guardar los logs y las configuraciones que estan en uso:
+
+!flush
+aleij: The operation succeeded.
+
+
+[5:39pm] aleij:
+!later tell kalashnikov test de mensaje con el plugin Later de supybot
+[5:39pm] halFbro:
+aleij: The operation succeeded.
+
+
+[5:38pm] aleij:
+!load Later
+[5:38pm] halFbro:
+aleij: The operation succeeded.
+[5:43pm] aleij:
+!load ChannelLogger
+[5:43pm] halFbro:
+aleij: The operation succeeded.
+
+
+[5:53pm] aleij:
+!config list plugins.ChannelLogger
+[5:54pm] aleij:
+!list ChannelLogger
+[5:54pm] halFbro:
+aleij: #filenameTimestamp, #noLogPrefix, #rotateLogs, #stripFormatting, #timestamp, @directories, flushImmediately, and public
+[5:54pm] halFbro:
+aleij: That plugin exists, but has no commands.  This probably means that it has some configuration variables that can be changed in order to modify its behavior.  Try "config list supybot.plugins.ChannelLogger" to see what configuration variables it has.
+
+
+!unload weather
+[5:46pm] halFbro:
+aleij: The operation succeeded.
+[5:47pm] aleij:
+!flush
+
+
+
+[6:53pm] aleij:
+!list math
+[6:53pm] halFbro:
+aleij: base, calc, convert, icalc, rpn, and units
+[6:53pm] aleij:
+!until 19:00
+[6:53pm] halFbro:
+aleij: 377
+[6:53pm] aleij:
+!calc 370/60
+[6:53pm] halFbro:
+aleij: Error: The command "calc" is available in the Google and Math plugins.  Please specify the plugin whose command you wish to call by using its name as a command before "calc".
+[6:54pm] aleij:
+!math calc 370/60
+[6:54pm] halFbro:
+aleij: 6.16666666667
+[6:54pm] aleij:
+!list google
+[6:54pm] halFbro:
+aleij: cache, calc, fight, google, lucky, phonebook, and translate
+[6:55pm] aleij:
+!google fight
+[6:55pm] halFbro:
+aleij: Error: I tried to send you an empty message.
+[6:55pm] aleij:
+!google fight aleij
+[6:55pm] halFbro:
+aleij: aleij: 185
+[6:55pm] aleij:
+!google fight aleij
+[6:55pm] halFbro:
+aleij: aleij: 185
+[6:56pm] aleij:
+!google translate en es bogus
+[6:56pm] halFbro:
+aleij: falso
+
+
+weather info:
+!wunder medellin, colombia
+
+!do #tm09 <action>
+!say #tm09tech <text>
+
+not to forget:
+/msg halFbro identify aleij <password>
