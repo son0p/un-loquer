@@ -12,7 +12,17 @@ git commit -m "w500_notes"
 git rm xxx borra en local y remoto
 (despues de hace el git add . git commit git push)
 
+---
 
+para salir de este error:
+error: Error building trees; the index is unmerged?
+
+hago un simple
+dspstv@localhost ~/tree/talleres_reciclables $ git commit -a
+
+escojo lo que quiero que cambie en ese file que se abre y hago el push sin problemas
 
 ---
+
+
 
